@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/CSS/reset.css" />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
+  </head>
+  <body>
+    <article class="form-article">
+      <h1 class="form-heading">Register</h1>
+      <p class="form-text">
+        Create your account. It's free and only takes a minute
+      </p>
+      <form class="form">
+        <div class="form-container">
+          <input
+            class="form-input form-border"
+            type="text"
+            placeholder="First Name"
+            name="first_name"
+            required
+          />
+          <input
+            class="form-input form-border"
+            type="text"
+            placeholder="Last Name"
+            name="last_name"
+            required
+          />
+        </div>
+        <input
+          class="form-input form-border"
+          type="email"
+          placeholder="Email"
+          name="email"
+          required
+          autocomplete="email"
+        />
+        <input
+          class="form-input form-border"
+          type="password"
+          placeholder="Password"
+          name="password"
+          required
+          autocomplete="new-password"
+        />
+        <input
+          class="form-input form-border"
+          type="password"
+          placeholder="Confirm Password"
+          name="confirm_password"
+          required
+        />
+        <label class="form-accept-checkbox">
+          <input type="checkbox" required />
+          I acept the
+          <a class="form-link" href="#">Terms of Use</a>
+          &
+          <a class="form-link" href="#">Privacy Policy</a>
+        </label>
+        <button class="form-btn-submit form-border" type="submit">
+          Register Now
+        </button>
+      </form>
+    </article>
+  </body>
+</html>
